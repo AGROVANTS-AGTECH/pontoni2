@@ -757,27 +757,14 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_label_PULVERIZACIONMAYO2020copiar_1_eval_expression(context) {
-    // 'Cuadro id = ' || id
+function exp_label_DANTEPONTONIMAYO2020Posgar2_1_eval_expression(context) {
+    // 'cuadro = ' || id
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ('Cuadro id = ' + feature.properties['id'] );
+        return ('cuadro = ' + feature.properties['id'] );
     } else {
-        return ('Cuadro id = ' + feature['id'] );
-    }
-}
-
-
-function exp_label_PULVERIZACIONMAYO2020_2_eval_expression(context) {
-    // 'Cuadro id = ' || id
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return ('Cuadro id = ' + feature.properties['id'] );
-    } else {
-        return ('Cuadro id = ' + feature['id'] );
+        return ('cuadro = ' + feature['id'] );
     }
 }
